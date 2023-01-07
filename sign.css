@@ -1,0 +1,153 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+* {
+    box-sizing: content-box;
+}
+
+body {
+    background-color: rgb(255, 228, 228);
+}
+
+header {
+    width: 780px;
+    height: 93vh;
+    background-color: rgb(241, 226, 255);
+    margin-top: 15px;
+    margin-left: 240px;
+    border-radius: 35px;
+    border: 5px solid rgb(255, 255, 255);
+
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+}
+
+header img {
+    width: 350px;
+    height: 570px;
+    /* background-color: blanchedalmond; */
+    border-radius: 30px;
+    object-fit: cover;
+    box-shadow: 7px 1px 7px rgb(191, 192, 193);
+    /* margin-left: 3px; */
+    margin: 5px 0px 5px 8px;
+}
+
+header .for_form {
+    width: 400px;
+    height: 550px;
+    /* background-color: rgb(253, 253, 187); */
+    margin: 5px 10px 5px 45px;
+}
+
+.register {
+    display: flex;
+    justify-content: right;
+    /* margin-left: 180px; */
+    align-items: center;
+}
+
+.register a {
+    text-decoration: none;
+}
+
+.register a:hover {
+    color: rgb(1, 1, 195);
+}
+
+.for_form h1 {
+    text-align: center;
+}
+
+.for_form .welcome {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 0.4cm;
+    opacity: 90%;
+}
+
+input[type=text],
+input[type=password] {
+    align-items: center;
+    width: 245px;
+    padding: 15px;
+    margin: 5px 0px 10px 50px;
+    display: inline-block;
+    border: none;
+    outline: none;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+}
+
+/* .input:invalid {
+    animation: justshake 0.3s forwards;
+} */
+
+input:hover {
+    box-shadow: 7px 7px 7px rgb(176, 177, 179);
+}
+
+.pswre {
+    opacity: 70%;
+    font-size: small;
+    margin: 0px 0px 10px 222px;
+}
+
+.pswre:hover {
+    opacity: 100%;
+}
+
+button {
+    align-items: center;
+    width: 245px;
+    padding: 15px;
+    margin: 4px 0px 10px 50px;
+    display: inline-block;
+    color: #fff;
+    border: none;
+    background: rgb(230, 61, 61);
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgb(215, 34, 34);
+}
+
+button:active {
+    box-shadow: 2px 2px 5px #fc4d4d;
+}
+
+.continue {
+    display: flex;
+    flex-direction: row;
+    opacity: 67%;
+    font-size: small;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.continue:before,
+.continue:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    margin: auto;
+}
+
+.icons {
+    display: flex;
+    gap: 35px;
+    /* margin-left: 25px; */
+    margin-top: 20px;
+    font-size: 22px;
+    justify-content: center;
+}
+
+.bi {
+    color: rgb(73, 73, 73);
+}
+
+.bi:hover {
+    color: black;
+}
